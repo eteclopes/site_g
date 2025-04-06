@@ -1,11 +1,11 @@
-*{
-  box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  
 }
 
-
-header{
+header {
     display: inline-block;
     background: rgb(56, 55, 55);
     color: white;
@@ -14,56 +14,153 @@ header{
     margin: 0px;
 }
 
-.link-Menu{
+.menu-link {
     display: inline-block;
     text-decoration: none;
     color: white;
     cursor: pointer;
     margin: 15px;
     font-size: 20px;
-    
-}
-h1{
-    display: inline-block;
-    padding: 20px;
-   
 }
 
-main{
+h1 {
+    display: inline-block;
+    padding: 20px;
+}
+
+main {
     margin-top: 10px;
     display: inline-block;
    
+ 
 }
 
-img{
+img {
     width: 300px;
-    height:300px;
+    height: 300px;
     border-radius: 150px;
-    margin-left:30px;
+    margin-left: 30px;
     margin-top: 15px;
-    margin-right: 10px;
+    margin-right: 450px;
     border: solid black;
     display: inline-block;
+}
+
+#titulo-sobre {
+    display: inline-block;
+    color: white;
+    font-size: 85px;
+}
+
+.sobre-secao {
+    display: inline-block;
+    width: 600px;
+    height: 100px;
+    position: relative;
+    bottom: 50px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: white;
+}
+
+.habilidades-secao {
    
+   
+    position: relative;
+    width: 200%;
+    height: 350px;
+    background: rgb(77, 75, 75);
+    
+
     
 }
 
-#meu-texto{
-    display: inline-block;
-    margin-bottom: 80px;
+.titulo-habilidades {
+    color: black;
+    margin: 0px;
+   margin-left: 50px;
   
+    
 }
 
-.sobre{
+.total{
+    background-image: url(https://imagenes.ambasmanos.mx/wp-content/uploads/2025/03/Chat-GPT-estudio-Ghibli-IA.webp);
+    width: 200%;
+    max-height: 350px;
+}
+
+table{
+    width: 1000px;
+    margin-left: 50px;
+    border: solid 2px silver;
+    background: rgb(102, 102, 101);
+}
+
+td{
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+th{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(1, 1, 66);
+}
+
+.label{
     display: inline-block;
-    width: 200px;
-    height: 100px;
-  
-   
+    position: relative;
+    bottom: 19px;
+    font-size: 20px;
+    margin-right: 20px;
+    
+
+}
+
+.input{
+    display: inline-block;
    
 }
-P{
-    font-size: 10px;}
+
+.form{
+    margin-left: 30px;
+    background-color: rgb(102, 102, 101);
+    width: 200%;
+    margin: 0px;
+}
+
+input{
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+#enviar{
+ border-radius: 15px;
+ color: white;
+background: rgb(7, 181, 7);
+margin-left: 40px;
+width: 200px;
+height: 40px;
+}
+
+form{
+    margin-left: 30px;
+}
+
+footer{
+    margin-top: 40px;
+    background: black;
+    color: white;
+   
+}
+
+.footer{
+    margin-left: 50px;
+    font-size: 5px;
+}
 
 
-
+ 
